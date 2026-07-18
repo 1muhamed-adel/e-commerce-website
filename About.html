@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="https://demo.theme-sky.com/merto/wp-content/uploads/2024/08/cropped-favicon-1-192x192.png" sizes="192x192">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg  sticky-top bg-body  ">
+        <div class="container-fluid  d-flex flex-wrap   border-bottom    ">
+          
+            <div class=" navborder align-items-baseline    col-12 d-flex justify-content-between ">
+            <button class="navbar-toggler col-2 border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand  col-2   col-md-1 fw-bold fs-2 " href="home.html">Merto</a>
+    
+            <div class="col-6 d-none rounded-3  d-lg-block bg-light  p-2">
+                <div class="row ">
+                
+                    <div class="dropdown p-2  col-3  ">
+                        <button class="btn fw-bold  dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            All Categories
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-9 position-relative ">
+                        <input class="form-control w-100  bg-light border-0 p-3" type="search" placeholder="Search For Products" />
+                        <button type=" submit" class=" position-absolute     col-1 btn btn-dark"
+                            style="top:5px; right: 10px; padding:10px">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </button>
+                    </div>
+                
+                </div>
+            </div>
+    
+            <div class="col-2 col-lg-2 ">
+
+                <div class="row  align-items-center ">
+                    
+                    <div class="col-1 d-lg-none me-3">
+
+                        <i class="fa-solid fa-magnifying-glass  fs-5    " data-bs-toggle="offcanvas" data-bs-target="#Search"
+                        role="button" aria-controls="Search">
+                    </i>
+                </div>
+                    <div class="col-5 d-none  d-lg-inline-block " >
+                        <i class="fa-regular d-inline-block fa-user fa-sm"></i>
+                        <a class="" href="#">Account</a>
+                    </div>
+                    <button type="button" class="col-2 d-none d-lg-inline-block me-3  bg-body  fs-3 border-0  position-relative">
+                        <i class="fa-regular fa-heart fa-sm"></i>    
+                        <div class="position-absolute d-flex  align-items-center justify-content-center start-100  top-0  translate-middle badge  rounded-circle bg-danger">
+                            <p class="mb-0 ">0</p>
+                            <span class="visually-hidden">unread messages</span>
+                        </div>
+                    </button>
+                    <button type="button" class="col-2  bg-body  fs-3 border-0  position-relative">
+                        <i class="fa-solid fa-cart-shopping fa-sm"></i>
+                        <div class="position-absolute d-flex  align-items-center justify-content-center start-100  top-0  translate-middle badge  rounded-circle bg-danger">
+                            <p class="mb-0 ">0</p>
+                            <span class="visually-hidden">unread messages</span>
+                        </div>
+                    </button>
+                
+            </div>
+        </div>
+           </div>
+
+    
+            <div class="offcanvas offcanvas-start " tabindex="-1" id="navbarSupportedContent" aria-labelledby="SearchLabel">
+                <div class="offcanvas-header p-0  bg-light justify-content-between  ">
+                    <div class="nav nav-tabs" id="nav-tab">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                            type="button" role="tab" aria-controls="nav-home" aria-selected="true"><span
+                                class="navbar-toggler-icon"></span></button>
+                        <button class="nav-link ms-4 fw-bold text-dark" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Shop By Categories+</button>
+                    </div>
+    
+                    <div class="h-100 col-2 p-2  border-start border-3 text-center ">
+                        <button type="button" class="btn-close mt-1   " data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+    
+                </div>
+                <div class="offcanvas-body p-4 ">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                            tabindex="0">
+                            <ul class="navbar-nav me-auto fw-bold mb-2 mt- mb-lg-0">
+                                <li class="nav-item border-bottom mt-0 text-center mb-2">
+                                    <a class="nav-link" href="#">Main Menu</a>
+                                </li>
+                                  <li class="nav-item border-bottom d-flex align-items-baseline mt-0 text-center mb-2">
+                                     <i class="fa-solid fa-bars  "></i>
+                                    <a class="btn d-none d-lg-block " data-bs-toggle="offcanvas" href="#categorey" role="button" aria-controls="categorey">
+                                        shop By Categories
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item d-flex align-items-baseline justify-content-between my-2">
+                                    <a class="nav-link active fw-bold" aria-current="page" href="home.html">Homepages</a>
+                                    <a class="" data-bs-toggle="offcanvas" href="#Home" role="button" aria-controls="Home">
+                                        +
+                                    </a>
+    
+    
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a class="nav-link" href="#">Categories</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a class="nav-link" href="#">Products</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a class="nav-link" href="#">Pages</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item fw-light">
+                                    <a class="nav-link disabled" aria-disabled="true">Recently viewed</a>
+                                </li>
+                                <hr>
+                                <li class="nav-item  mb-2 fw-light">
+                                    <i class="fa-regular fa-heart"></i> <span>Wishlist</span>
+                                </li>
+                                <li class="nav-item fw-light">
+                                    <i class="fa-regular fa-user"></i> <span>Wishlist</span>
+                                </li>
+    
+    
+    
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                            tabindex="0">
+                            <ul class="navbar-nav me-auto fw-bold mb-2 mb-lg-0">
+    
+    
+                                <li class="nav-item d-flex border-bottom justify-content-between my-2">
+                                    <a class="nav-link active fw-bold" aria-current="page" href="fashion.html">Fashion</a>
+                                    <a class="" data-bs-toggle="offcanvas" href="#Home" role="button" aria-controls="Home">
+                                        +
+                                    </a>
+    
+    
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Phone & Tablet</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Laptop & Computer</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">TV, Audio-video</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Camera & Photo</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Home & Decor</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Beauty & Health</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Game Accessories</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-2">
+                                    <a class="nav-link" href="#">Autopart</a>
+                                </li>
+    
+    
+                                <li class="nav-item   my-3 fw-light">
+                                    <i class="fa-regular fa-heart"></i> <span>Wishlist</span>
+                                </li>
+                                <li class="nav-item border-bottom  fw-light">
+                                    <i class="fa-regular fa-user"></i> <span>Wishlist</span>
+                                </li>
+    
+    
+    
+                            </ul>
+                        </div>
+    
+                    </div>
+                    <div>
+    
+    
+    
+                    </div>
+                    </form>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    </nav>
+     <div class="offcanvas offcanvas-start " tabindex="-1" id="Home" aria-labelledby="HomeLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="HomeLabel">Home</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen.
+                Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end " tabindex="-1" id="Search" aria-labelledby="SearchLabel">
+        <div class="offcanvas-header p-0  bg-light justify-content-between  ">
+            <div class="dropdown p-2  col-10  ">
+                <button class="btn fw-bold  dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    All Categories
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="h-100 col-2 p-2  border-start border-3 text-center ">
+
+                <button type="button" class="btn-close mt-1   " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+        </div>
+        <div class="offcanvas-body ">
+            <div>
+                <form class=" d-flex flex-wrap " role="search">
+
+                    <input class="form-control w-75   p-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success  p-2" type="submit">Search</button>
+                    <div class="d-flex p-2 align-content-between  mt-4 flex-wrap">
+                        <button type="button" class="btn border me-2  p-1 "><a href="">smartphones</a></button>
+                        <button type="button" class="btn border me-2 mt-2 p-2 "><a href="">tablet</a></button>
+                        <button type="button" class="btn border me-2 mt-2 p-2 "><a href="">conttoller</a></button>
+                        <button type="button" class="btn border me-2 mt-2 p-2 "><a href="">furniture</a></button>
+                        <button type="button" class="btn border me-2 mt-2 p-2 "><a href="">laptop</a></button>
+                        <button type="button" class="btn border me-2 mt-2 p-2 ">play station</button>
+
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="categorey" aria-labelledby="categoreyLabel">
+  <div class="offcanvas-header bg-dark">
+    <i class="fa-solid fa-bars text-light me-4"></i>
+    <h6 class="offcanvas-title text-light " id="categoreyLabel">Shop By Categories</h6>
+    
+  </div>
+  <div class="offcanvas-body p-0">
+     <ul class="  fw-bold p-2  mb-2 mb-lg-0">
+    
+    
+                                <li class="nav-item d-flex border-bottom justify-content-between my-4">
+                                    <a class="nav-link active fw-bold" aria-current="page" href="fashion.html">Fashion</a>
+                                    <a class="" data-bs-toggle="offcanvas" href="#" role="button" aria-controls="Home">
+                                        +
+                                    </a>
+    
+    
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Phone & Tablet</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Laptop & Computer</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">TV, Audio-video</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Camera & Photo</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Home & Decor</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Beauty & Health</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Game Accessories</a>
+                                </li>
+                                <li class="nav-item border-bottom mb-4">
+                                    <a class="nav-link" href="#">Autopart</a>
+                                </li>
+    
+    
+                                <li class="nav-item   my-3 fw-light">
+                                    <i class="fa-regular fa-heart"></i> <span>Wishlist</span>
+                                </li>
+                                <li class="nav-item border-bottom  fw-light">
+                                    <i class="fa-regular fa-user"></i> <span>Wishlist</span>
+                                </li>
+    
+    
+    
+                            </ul>
+  </div>
+    </div>
+
+
+    <div class="container-fluid d-flex justify-content-center my-3">
+         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb ">
+                <li class="breadcrumb-item " style="font-size: smaller;"><a  href="home.html">Home</a></li>
+                <li class="breadcrumb-item active" style="font-size: smaller;" aria-current="page">About</li>
+            </ol>
+        </nav>
+    </div>
+    <section class="container mt-5 ">
+        <div class="d-flex justify-content-center">
+            
+            <div class="col-lg-9 col-12 text-center text-md-start mb-2 fs-md">
+                <h3 class="mb-4 fw-semibold ">We believe that great design should be available to everyone</h3>
+                <p class="mb-3 "style="font-size:12.5px">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p  style="font-size:12.5px">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+        </div>
+        <div class="text-center row d-flex mt-5 justify-content-lg-center justify-content-around fs " >
+            <div class="col-lg-2 col-5 me-lg-3">
+                <h1 class="fw-semibold">25</h1>
+                <p>years of experience in the clothing industry</p>
+            </div>
+            <div class="col-lg-2 col-5 me-lg-3">
+                <h1 class="fw-semibold">+200</h1>
+                <p>showrooms around the world</p>
+            </div>
+             <div class="col-lg-2 col-5 me-lg-3">
+                <h1 class="fw-semibold">+100M</h1>
+                <p>items of clothing sold annually</p>
+            </div>
+             <div class="col-lg-2 col-5">
+                <h1 class="fw-semibold">99%</h1>
+                <p>customers recommend our brand to their friends</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container mt-5">
+        <div class="border border-dark d-flex p-lg-5 align-items-center flex-lg-row flex-column rounded-3">
+            <div class="position-relative me-4 " style="height:100px ">
+                
+                <i class="bi bi-card-text fa-4x text-secondary"></i>
+                <div class="bg-secondary z-3 rounded-circle text-center position-absolute fa-md" style="width:30px; bottom:20px; right:-10px"><i class="bi bi-three-dots text-light"></i></div>
+            </div>
+            <div class="p-lg-5 p-2 col-lg-6 text-center text-lg-start fs">
+                <h1 class="fw-semibold">Our Mission</h1>
+                <p class="mb-0 ">As part of the TenTen Group, our mission is to make it easy to do business anywhere.</p>
+               <p> We do this by giving suppliers the tools necessary to reach a global audience for their products, and by helping buyers find products and suppliers quickly and efficiently.</p>
+            </div>
+            <div>
+                <img src="css/images/images/contact-page/about-1.jpg" class="w-100 p-3 rounded-3" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="d-flex justify-content-center">
+            
+            <div class="col-lg-5 col-12 text-center mb-2 fs-md">
+                <h3 class="mb-4 fw-semibold ">We enable innovation. From ideation all the way through to market delivery.</h3>
+            </div>
+        </div>
+    </section>
+     <section class="container mt-5  ">
+        <div class="row align-items-baseline text-center justify-content-lg-center  ">
+            <div class="col-6 icon col-lg-2 border-0">
+                <div class="row d-flex flex-column align-items-center">
+                    <div class="col-12 col-lg-12">
+                        <i class="fa-solid fa-truck-fast text-secondary  fs-1"></i> 
+                    </div>
+                    <div class="col-12 col-lg-12">
+                        <h6 class="my-1">fast, free shipping</h6>
+                        <p class="text-secondary">On order over $50</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-6 icon col-lg-2 border-0">
+                <div class="row flex-column align-items-center">
+                    <div class="col-12 col-lg-12">
+                        <i class="fa-regular fa-clock text-secondary  fs-1"></i> 
+                    </div>
+                    <div class="col-12 col-lg-12">
+                        <h6 class="my-1">Next Day Delivery </h6>
+                        <p class="text-secondary">Free-spend over $99</p>
+                    </div>   
+                </div>
+            </div>
+             <div class="col-6 icon mt-3 col-lg-2 border-0">
+                <div class="row flex-column align-items-center">
+                    <div class="col-12 col-lg-12">
+
+                        <i class="fa-regular fa-star text-secondary w-100  fs-1"></i>
+                    </div>
+                    <div class="col-12 col-lg-12">
+
+                        <h6 class="my-1">Low Price Guarntee </h6>
+                        <p class="text-secondary ">We offer competitive prices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 icon mt-3 col-lg-2 border-0">
+               <div class="row flex-column align-items-center">
+                    <div class="col-12 col-lg-12">
+                        <i class="fa-regular fa-thumbs-up text-secondary fs-1"></i>
+                    </div>
+                   <div class="col-12 col-lg-12">
+
+                       <h6 class="my-1">Quality Guarantee </h6>
+                       <p class="text-secondary ">We Guarantee Our Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+     <section class="container mt-5 p-3">
+    <div class="text-center mb-4">
+        <h3 class="fw-semibold">Stores around the world</h3>
+    </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card  border-0 imgopacity   ">
+                    <div class="overflow-hidden rounded-3 ">
+                        <img src="css/images/images/contact-page/about-2.jpg" class="card-img-top w-100  rounded-3" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center align-items-md-start mt-4 p-1">
+                        
+                        <h5 class="card-title  fw-semibold" style="font-size:large;">Los Angeles</h5>
+                        <p class="card-text text-secondary fs-md-xs text-center w-50 text-md-start"style="font-size: smaller;"> 34 Main Street, Los Angeles 9021 United States</p>
+                       <p>+02 1234 567 88</p>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card imgopacity border-0 ">
+                     <div class="overflow-hidden rounded-3 ">
+                        <img src="css/images/images/contact-page/about-3.jpg" class="card-img-top rounded-3" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center align-items-md-start mt-4 p-1">
+                        
+                        <h5 class="card-title fw-semibold" style="font-size:large;">New York</h5>
+                        <p class="card-text text-secondary fs-md-xs text-center text-md-start w-50" style="font-size: smaller;"> 515 Broadway 10015 New York United States</p>
+                        <p>+02 1234 567 88</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card imgopacity border-0 ">
+                     <div class="overflow-hidden rounded-3 ">
+                        <img src="css/images/images/contact-page/about-4.jpg" class="card-img-top rounded-3" alt="...">
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center align-items-md-start mt-4 p-1">
+                         
+                        <h5 class="card-title fw-semibold" style="font-size:large;">California</h5>
+                        <p class="card-text p-0 fs-md-xs text-secondary w-50 text-center text-md-start"style="font-size:smaller"> 1000 California St 68114 Omaha United States</p>
+                       <p>+02 1234 567 88</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+     <footer class="container-fluid p-3  bg-dark">
+        <div class="d-flex flex-column  container-md my-md-5  justify-content-md-around flex-md-row">
+            <div class="d-flex order-1 col-md-2 flex-column ">
+                <a class="navbar-brand my-3 ms-0 mt-lg-0  col-2 text-light  col-md-1 fw-bold fs-2 " href="home.html">Merto</a>
+              <div class="text-secondary">
+                  <i class="fa-solid fa-location-dot  me-2 fa-xs"></i><a href="" class="text-secondary" style="font-size: small;" >29 SE 2nd Ave, Miami Florida 33131, United States</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope text-secondary me-2 fa-xs"></i><a href="" class="text-secondary" style="font-size: small;">mail@example.com</a>
+                </div>
+                <a href="" class="text-light fs-5 fw-semibold mt-2">(+92) 3942 7879</a>
+                
+                <div class="text-light d-md-none mt-2">
+                    <i class="fa-brands me-2 fa-facebook-f fa-sm"></i>
+                    <i class="fa-brands me-2  fa-tiktok fa-sm"></i>
+                    <i class="fa-brands me-2  fa-instagram"></i>
+                    <i class="fa-brands me-2  fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div>
+            </div>
+            <div class="d-flex mt-5 mt-lg-0 order-2 col-md-3 order-md-3 flex-column">
+                <p class="fw-semibold fs-4 text-light">Let’s keep in touch</p>
+               <input class="form-control custom-placeholder bg-dark text-light   p-3" type="search" placeholder="Enter Your Email Address" style="width: 95%;"  />
+                 <div class="text-light d-md-inline-block d-none mt-2">
+                    <i class="fa-brands me-2 fa-facebook-f fa-sm"></i>
+                    <i class="fa-brands me-2  fa-tiktok fa-sm"></i>
+                    <i class="fa-brands me-2  fa-instagram"></i>
+                    <i class="fa-brands me-2  fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div>
+            </div>
+            <div class="d-flex mt-5 mt-lg-0 order-3 order-md-2 col-md-5   justify-content-between">
+                <div class="text-light me-5 " style="font-size: small;">
+                    <p class="fw-bold">SHOPPING</p>
+                    <p>Whislist</p>
+                    <p>Shop by Brand</p>
+                    <p>Offers</p>
+                    <p>Track order</p>
+                    <p>Size Guide</p>
+                </div>
+                <div class="text-light me-5" style="font-size: small;">
+                    <p class="fw-bold">INFORMATION</p>
+                    <p>Whislist</p>
+                    <p>Shop by Brand</p>
+                    <p>Offers</p>
+                    <p>Track order</p>
+                    <p>Size Guide</p>
+                </div>
+                <div class="text-light" style="font-size: small;">
+                    <p class="fw-bold ">ACCOUNT</p>
+                    <p>Whislist</p>
+                    <p>Shop by Brand</p>
+                    <p>Offers</p>
+                    <p>Track order</p>
+                    <p>Size Guide</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="d-flex p-2 border-secondary container-md flex-md-row justify-content-md-around  align-items-baseline border flex-column">
+            <div class="d-flex my-4 text-light">
+                <i class="fa-solid align-self-center fa-2x me-2 fa-phone"></i>
+               <div class=" ">
+                   <p>Didn't find what you were looking for?</p>
+                   <div class="footer-link position-relative overflow-hidden">
+
+                       <a class="text-light" href="contact-us.html">Contact us</a>
+                       <div class="w-25  translate-right position-absolute " style="bottom:0; left:-200px; border-bottom:1px solid white !important "></div>
+                    </div>
+
+               </div>
+               
+
+            </div>
+            <div class="d-flex mb-4 text-light">
+                <i class="fa-solid align-self-center fa-2x me-2 fa-phone"></i>
+               <div class=" ">
+                   <p>Didn't find what you were looking for?</p>
+                   <div class="footer-link position-relative overflow-hidden">
+
+                       <a class="text-light" href="contact-us.html">Contact us</a>
+                       <div class="w-25  translate-right position-absolute " style="bottom:0; left:-200px; border-bottom:1px solid white !important "></div>
+                    </div>
+
+               </div>
+               
+
+            </div>
+            <div class="d-flex text-light">
+                <i class="fa-solid align-self-center fa-2x me-2 fa-phone"></i>
+               <div class=" ">
+                   <p>Didn't find what you were looking for?</p>
+                   <div class="footer-link position-relative overflow-hidden">
+
+                       <a class="text-light" href="contact-us.html">Contact us</a>
+                       <div class="w-25  translate-right position-absolute " style="bottom:0; left:-200px; border-bottom:1px solid white !important "></div>
+                    </div>
+
+               </div>
+               
+
+            </div>
+        </div>
+    </footer>
+     <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+</html>
